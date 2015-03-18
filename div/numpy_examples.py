@@ -8,7 +8,7 @@ x = linspace(0, pi, N)
 
 # N argument in function and global N above are in different scopes
 def trapezoidal_method(f, a, b, N):
-    # exercize: turn the loop into an inner product
+    # exercise: turn the loop into an inner product
     # look up numpy.inner
     # gives faster summing, but more memory usage
     """ Integrate f from a to b using the trapezoidal method """
