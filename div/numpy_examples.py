@@ -2,11 +2,6 @@ import numpy as np
 #from numpy import pi, sin, cos, sqrt, exp, linspace  # numpy faster on vectors
 from math import pi, sin, cos, sqrt, exp # math module faster on scalars
 
-N = 30
-x = linspace(0, pi, N)
-
-
-# N argument in function and global N above are in different scopes
 def trapezoidal_method(f, a, b, N):
     # exercise: turn the loop into an inner product
     # look up numpy.inner
